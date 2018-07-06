@@ -32,7 +32,7 @@ class Model {
     static var nNewsLoaded = Notification.Name("nNewsLoaded")
     
     func loadNewsJSON() {
-        let stringURL = "http://jsonviewer.stack.hu/#http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=33ddf8671707455daf5c4348e0cacee7"
+        let stringURL = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=5eed7e3e3bc24d2182200fc169cb04cb"
         let url = URL(string: stringURL)
         
         let session = URLSession(configuration: .default)
