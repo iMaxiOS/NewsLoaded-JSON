@@ -38,7 +38,7 @@ class TableViewController: UITableViewController {
         let news = model.newsArray[indexPath.row]
 
         cell.textLabel?.text = news["title"] as? String
-        cell.detailTextLabel?.text = news["title"] as? String
+        cell.detailTextLabel?.text = news["author"] as? String
 
         return cell
     }
